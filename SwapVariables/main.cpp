@@ -1,4 +1,4 @@
-// write code to swap the value of two variables
+// escribe código para intercambiar el valor de dos variables.
 
 #include <iostream>
 
