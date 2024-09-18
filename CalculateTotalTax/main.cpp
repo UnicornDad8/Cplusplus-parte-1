@@ -4,7 +4,7 @@
 // el impuesto estatal es del 0.4% (stateTaxRate = 0.04) de las ventas.
 // el impuesto del condado es el 0.2% de las ventas (countyTaxRate = 0.02).
 // imprime los valores de (sales), (stateTax), y (countyTax).
-// luego calcula el impuesto total (totalTax).
+// luego calcula el impuesto total (totalTax) e imprimelo.
 
 #include <iostream>
 
