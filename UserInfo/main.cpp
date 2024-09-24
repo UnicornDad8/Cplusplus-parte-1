@@ -1,9 +1,10 @@
-// escribe un programa que haga al usuario una serie de preguntas como
+// Escribe un programa que haga al usuario una serie de preguntas como
 // calle, ciudad, estado y código postal y luego imprima la dirección del usuario
 // usando este formato:
 // ----------------------------------------------------------------------
-// calle
-// ciudad, estado, código postal.
+// Output:
+// Calle
+// Ciudad, estado, código postal
 // ----------------------------------------------------------------------
 // Nombre de variables: (street), (city), (state), y (zipCode).
 
@@ -17,7 +18,7 @@ int main() {
     getline(cin, street);
 
     string city;
-    cout << "City" << endl;
+    cout << "City: " << endl;
     getline(cin, city);
 
     string state;
