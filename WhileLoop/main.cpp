@@ -1,10 +1,5 @@
-//
-//  main.cpp
-//  WhileLoop
-//
-//  Created by Ceci Benitez on 4/Oct/24.
-// -----------------------------------------------------------------------------------------
-// Declara un número secreto. Pídele continuamente al usuario que adivine el número secreto.
+// Declara un número secreto. Pídele continuamente al usuario 
+// que adivine el número secreto.
 
 #include <iostream>
 
@@ -15,11 +10,16 @@ int main() {
     int user_number = 0;
     
     while(true) {
-        cout << "Ingresa un numero del 1 al 10: ";
+        cout << "Ingresa un número del 1 al 10: ";
         cin >> user_number;
         
+        if(user_number < 1 || user_number > 10) {
+            cout << "El número esta fuera del rango del 1 al 10" << endl;
+            continue;
+        }
+        
         if(user_number == secret_number) {
-            cout << "Adivinaste el numero secreto." << endl;
+            cout << "Adivinaste el número secreto." << endl;
             break;
         }
     }
