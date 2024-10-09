@@ -28,7 +28,7 @@ Este curso se divide en tres partes, la primera parte los fundamentos de C++, y 
 - Realice operaciones de entrada y salida con secuencias.
 - Defina valores constantes nombrados mediante enumeraciones, lo que mejora la legibilidad del código.
 
-### C++ parte
+### C++ parte 3
 
 - Comprender los principios de la programación orientada a objetos (POO).
 - Técnicas avanzadas para la herencia de clases, incluidas las funciones virtuales y las clases abstractas.
